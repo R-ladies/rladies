@@ -4,8 +4,9 @@
 
 Download datasets from https://www.its-rde.net/showdf?dataSetNumber=10146
 
-1. BusLocations_Oct.csv
-2. BusStops.csv
+1. [BusLocations_Oct.csv](https://dl.dropboxusercontent.com/u/10128992/R_ladies_data/BusLocations_Oct.csv)
+
+2. [BusStops.csv](https://dl.dropboxusercontent.com/u/10128992/R_ladies_data/BusStops.csv)
 
 Start with clean.R which loads the data, cleans it, then writes the clean data to csv.
 
