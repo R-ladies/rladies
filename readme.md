@@ -2,7 +2,7 @@
 
 #Getting started with the Shiny app
 
-Download datasets from https://www.its-rde.net/showdf?dataSetNumber=10146
+Datasets:
 
 1. [BusLocations_Oct.csv](https://dl.dropboxusercontent.com/u/10128992/R_ladies_data/BusLocations_Oct.csv)
 
