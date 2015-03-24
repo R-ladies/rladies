@@ -7,7 +7,8 @@ shinyUI(fluidPage(
     
       selectizeInput(inputId = 'Route', 
                      label = 'Route',
-                     choices = levels(data$route)),
+                     choices = levels(data$route),
+                     selected = '25'),
       
       checkboxGroupInput("Direction", label = ("Direction"), 
                          choices = c(Inbound = 'IN',

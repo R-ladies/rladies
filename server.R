@@ -13,7 +13,7 @@ shinyServer(function(input, output) {
                      source="stamen", maptype="toner", crop=F)
     
     ggmap(myMap, extent = 'device') +
-      geom_point(aes(x=Lon, y=Lat, color=mean_ontime), data=dat()) +
+      geom_point(aes(x=Lon, y=Lat, color=mean_ontime, size=3), data=dat()) +
       scale_color_gradient(low = "#00FFFFFF", high = "#FF0000FF") +
       theme(legend.position = 'bottom') 
 
